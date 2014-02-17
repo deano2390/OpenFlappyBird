@@ -35,7 +35,7 @@ import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.HorizontalAlign;
 import org.andengine.util.debug.Debug;
 
-import uk.co.deanwild.flappyfowl.R;
+import uk.co.deanwild.floppyjoe.R;
 
 import android.graphics.Color;
 import android.graphics.Typeface;

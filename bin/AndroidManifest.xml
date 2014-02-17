@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="uk.co.deanwild.flappyfowl"
-    android:versionCode="135"
-    android:versionName="1.3.5" >
+    package="uk.co.deanwild.floppyjoe"
+    android:versionCode="137"
+    android:versionName="1.3.7" >
 
     <uses-sdk
         android:minSdkVersion="8"
