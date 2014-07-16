@@ -286,7 +286,7 @@ public class MainActivity extends SimpleBaseGameActivity {
 
 		try {
 			mMusic = MusicFactory.createMusicFromAsset(mEngine.getMusicManager(), this, "song.ogg");
-			mMusic.setVolume(0.02f);
+			mMusic.setVolume(0.1f);
 			mMusic.setLooping(true);
 		} catch (final IOException e) {
 			Debug.e("Error", e);
