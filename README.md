@@ -17,6 +17,7 @@ So, here is my slightly-rough-around-the-edges attempt to reproduce one of the m
 TODO
 --------
   - Never did manage to finish the scoreboard stuff
+  - Gradle-a-fy all teh things!
   - Maybe tidy things up, this was slapped together in 2 about evenings!
 
 License
