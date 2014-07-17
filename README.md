@@ -14,6 +14,10 @@ Anyway, in my pursuit of creating the perfect Flappy Bird clone I could find num
 
 So, here is my slightly-rough-around-the-edges attempt to reproduce one of the most annoying yet popular games ever to hit mobile devices - I hope it can help some others to get to grips with game development on Android.
 
+Instructions
+--------
+First check out the source of [AndEngine][https://github.com/nicolasgramlich/AndEngine], add it to your Eclipse workspace as an Android library project. Check out the source for OpenFlappyBird and add it to your workspace - hopefully the reference to AndEngine should be ok if you have them both in the same directory. If not just remove the broken reference and add it again.
+
 TODO
 --------
   - Never did manage to finish the scoreboard stuff
