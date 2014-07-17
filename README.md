@@ -8,7 +8,9 @@ An open source clone of a famous flappy bird game for Android using the amazing 
 History
 -------
 
-When the original Flappy Bird game was removed from Google Play (and other well known app marketplaces), I, along with [thousands][2] of other unimaginative developers rushed to fill that void with our own crappy rip off clones. I must point out though that I merely saw this as an ideal excuse to learn how to use [AndEngine][1] rather than flood Google Play with [malware][3]. Incidently my clone (along with almost every other) was [removed][4] by Google). In my pursuit of creating the perfect Flappy Bird clone however, I could find numerous, fragmented tutorials, snippets and documentation but I found it frustratingly difficult to find actual examples of real, finished games that were open source. Working code is after all the very best form of documentation. 
+When the original Flappy Bird game was removed from Google Play (and other well known app marketplaces), I, along with [thousands][2] of other unimaginative developers rushed to fill that void with our own crappy rip off clones. I must point out though that I merely saw this as an ideal excuse to learn how to use [AndEngine][1] rather than flood Google Play with [malware][3]. Incidently my clone (along with almost every other) was [removed][4] by Google). 
+
+In my pursuit of creating the perfect Flappy Bird clone however, I could find numerous, fragmented tutorials, snippets and documentation but I found it frustratingly difficult to find actual examples of real, finished games that were open source. Working code is after all the very best form of documentation. 
 
 So, here is my slightly-rough-around-the-edges attempt to reproduce one of the most annoying yer popular games ever to hit mobile devices - I hope it can help some others to get to grips with game development on Android.
 
