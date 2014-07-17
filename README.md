@@ -16,7 +16,7 @@ So, here is my slightly-rough-around-the-edges attempt to reproduce one of the m
 
 Instructions
 --------
-First check out the source of [AndEngine][https://github.com/nicolasgramlich/AndEngine], add it to your Eclipse workspace as an Android library project. Check out the source for OpenFlappyBird and add it to your workspace - hopefully the reference to AndEngine should be ok if you have them both in the same directory. If not just remove the broken reference and add it again.
+First check out the source of [AndEngine][5], add it to your Eclipse workspace as an Android library project. Check out the source for OpenFlappyBird and add it to your workspace - hopefully the reference to AndEngine should be ok if you have them both in the same directory. If not just remove the broken reference and add it again.
 
 TODO
 --------
@@ -46,3 +46,4 @@ License
 [2]: https://play.google.com/store/search?q=flappy%20bird
 [3]: http://uk.pcmag.com/news/33567/nearly-80-percent-of-flappy-bird-clones-contained
 [4]: http://i.imgur.com/bJSoYYI.png
+[5]: https://github.com/nicolasgramlich/AndEngine
