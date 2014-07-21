@@ -18,6 +18,8 @@ import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.debug.Debug;
 
+import android.app.Activity;
+
 
 public class Bird {
 
@@ -50,7 +52,7 @@ public class Bird {
 	// sounds
 	private static Sound mJumpSound;	
 
-	public static void onCreateResources(MainActivity activity){
+	public static void onCreateResources(SimpleBaseGameActivity activity){
 		// bird
 		mBirdBitmapTextureAtlas = new BuildableBitmapTextureAtlas(activity.getTextureManager(), (int)BITMAP_WIDTH, (int)BITMAP_HEIGHT, TextureOptions.NEAREST);
 		mBirdTextureRegion = BitmapTextureAtlasTextureRegionFactory.createTiledFromAsset(mBirdBitmapTextureAtlas, activity, "birdmap.png", 3, 3);
