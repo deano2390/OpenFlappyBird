@@ -14,8 +14,6 @@ import org.andengine.entity.scene.background.ParallaxBackground;
 import org.andengine.input.touch.TouchEvent;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 
-import uk.co.deanwild.openflappybird.ScoreManager;
-
 public class MainActivity extends SimpleBaseGameActivity {
 
 	public static float CAMERA_WIDTH = 485; // this is not final because we dynamically set it at runtime based on the device aspect ratio
@@ -37,7 +35,6 @@ public class MainActivity extends SimpleBaseGameActivity {
 	private TimerHandler mTimer;
 	private SceneManager mSceneManager;
 	private ResourceManager mResourceManager;	
-	private static MainActivity instance;
 	private Scene mScene;
 	private Camera mCamera;
 
@@ -54,8 +51,6 @@ public class MainActivity extends SimpleBaseGameActivity {
 	public EngineOptions onCreateEngineOptions() {
 
 		CAMERA_WIDTH = ScreenSizeHelper.calculateScreenWidth(this, CAMERA_HEIGHT);
-
-		instance = this;
 
 		mCamera = new Camera(0, 0, CAMERA_WIDTH, CAMERA_HEIGHT){
 

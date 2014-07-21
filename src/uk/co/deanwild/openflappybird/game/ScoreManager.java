@@ -1,4 +1,4 @@
-package uk.co.deanwild.openflappybird;
+package uk.co.deanwild.openflappybird.game;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,7 +8,7 @@ public class ScoreManager {
 
 	public static int GetBestScore(Context context){
 		SharedPreferences prefs = context.getSharedPreferences(
-				"com.deanwild.flappyfowl.score", Context.MODE_PRIVATE);
+				context.getPackageName() + ".score", Context.MODE_PRIVATE);
 
 		return prefs.getInt("bestscore", 0);
 	}
@@ -18,7 +18,7 @@ public class ScoreManager {
 		if(newScore > GetBestScore(context)){
 
 			SharedPreferences prefs = context.getSharedPreferences(
-					"com.deanwild.flappyfowl.score", Context.MODE_PRIVATE);
+					context.getPackageName() + ".score", Context.MODE_PRIVATE);
 
 			Editor editor = prefs.edit();
 			editor.putInt("bestscore", newScore);
