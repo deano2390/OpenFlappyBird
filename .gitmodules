@@ -1,0 +1,6 @@
+[submodule "andengine"]
+	path = andengine
+	url = /Users/art.beatte/Projects/OpenFlappyBird/andengine
+[submodule "andenginePhysicsBox2dExtension"]
+	path = andenginePhysicsBox2dExtension
+	url = /Users/art.beatte/Projects/OpenFlappyBird/andenginePhysicsBox2dExtension
