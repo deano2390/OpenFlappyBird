@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenFlappyBird.iml" filepath="$PROJECT_DIR$/OpenFlappyBird.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andengine/andengine.iml" filepath="$PROJECT_DIR$/andengine/andengine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andenginePhysicsBox2dExtension/andenginePhysicsBox2dExtension.iml" filepath="$PROJECT_DIR$/andenginePhysicsBox2dExtension/andenginePhysicsBox2dExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openflappybird/openflappybird.iml" filepath="$PROJECT_DIR$/openflappybird/openflappybird.iml" />
+    </modules>
+  </component>
+</project>
+
